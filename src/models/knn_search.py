@@ -62,7 +62,7 @@ def main():
     
     # Ensure directory exists before saving the model
     search_engine.save_model("models/knn_search")
-    query = "Donald Trump is a liar."
+    query = "Leaked documents show that the government is planning to cancel all upcoming elections."
     results = search_engine.search(query)
     
     print(f"\nTop 3 results for query '{query}':")  
